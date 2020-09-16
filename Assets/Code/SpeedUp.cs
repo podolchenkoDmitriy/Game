@@ -14,7 +14,7 @@ public class SpeedUp : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Bullet") 
+        if (other.tag == "Bullet") 
         {
             bullet.speedup_timer += 5;
 
