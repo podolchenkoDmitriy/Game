@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BulletController : MonoBehaviour
 {
@@ -15,11 +16,23 @@ public class BulletController : MonoBehaviour
 
 
     [Header("System Vars")]
-    public Vector2 startPos;
+   // public Vector2 startPos;
     public Vector2 direction;
     public Vector2 keyboard_input;
-    public FloatingJoystick joy;
+    //public FloatingJoystick joy;
     float t = 0.0f;//camera lerper
+
+
+    [Header("Debug Vars")]
+    public Vector2 touchDelta;
+    public Text DebugConsole;
+
+    public float smooth_rotation_speed;
+    public float swipe_speed;
+
+
+
+
 
     GameObject visual_model;
 
@@ -29,7 +42,7 @@ public class BulletController : MonoBehaviour
 
         visual_model = GameObject.Find("visualBullet");
         bullet = GetComponent<Rigidbody>();
-        joy = GameObject.Find("Floating Joystick").GetComponent<FloatingJoystick>();
+       // joy = GameObject.Find("Floating Joystick").GetComponent<FloatingJoystick>();
     
     }
 
@@ -54,6 +67,7 @@ public class BulletController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+         
         t = Mathf.Clamp(t, 0, 1);
         if (speedup_timer >= 0)
         {
@@ -71,17 +85,35 @@ public class BulletController : MonoBehaviour
             Camera.main.fieldOfView = Mathf.Lerp(60, 70, t); 
         }
 
-        keyboard_input.x = Input.GetAxis("Horizontal");
-        keyboard_input.y = Input.GetAxis("Vertical");
-        if (keyboard_input.x == 0) keyboard_input.x = joy.Horizontal;
-        if (keyboard_input.y == 0) keyboard_input.y = joy.Vertical;
+
+
+        if (Input.touchCount > 0)
+        {
+            touchDelta = Input.GetTouch(0).deltaPosition;
+            keyboard_input.x = Input.GetTouch(0).deltaPosition.x * Time.deltaTime;
+            keyboard_input.y = Input.GetTouch(0).deltaPosition.y * Time.deltaTime;
+          
+           
+        }
+        else 
+        {
+            keyboard_input.x = Input.GetAxis("Horizontal");
+            keyboard_input.y = Input.GetAxis("Vertical");
+            
+           
+        }
+        
+     
+
+
+
         direction_velocity.z = fly_speed;
-        direction_velocity.x = keyboard_input.x * fly_speed;
-        direction_velocity.y = keyboard_input.y*fly_speed;
+        direction_velocity.x = keyboard_input.x * swipe_speed;
+        direction_velocity.y = keyboard_input.y* swipe_speed;
+       
 
-
-        visual_model.transform.eulerAngles = new Vector3(90-keyboard_input.y*45,0, -keyboard_input.x * 45);
-
+        
+  
 
 
     }

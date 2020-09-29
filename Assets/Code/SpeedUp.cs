@@ -5,8 +5,8 @@ using UnityEngine;
 public class SpeedUp : MonoBehaviour
 {
     public BulletController bullet;
-
-    // Start is called before the first frame update
+    public float speed=5;
+        // Start is called before the first frame update
     void Start()
     {
         bullet = GameObject.Find("Bullet").GetComponent<BulletController>();    
@@ -24,6 +24,6 @@ public class SpeedUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.eulerAngles += new Vector3(0, 0, speed);
     }
 }
