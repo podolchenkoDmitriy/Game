@@ -7,6 +7,8 @@ TagManager:
   - SpeedUp
   - Bullet
   - Ground
+  - tree
+  - burrel
   layers:
   - Default
   - TransparentFX
