@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cb0858b189babed42831a7cb4b1e9b94
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Walibi0615
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4461b630ab4a3c645866ef9b8dd32bc7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
