@@ -8,6 +8,7 @@ public class BulletController : MonoBehaviour
     public Rigidbody bullet;
     public Vector3 direction_velocity;
     public float fly_speed;
+    public float default_speed, cyrcle_speed;
 
 
     [Header("PowerUp Vars")]
@@ -74,14 +75,14 @@ public class BulletController : MonoBehaviour
             t += 0.5f * Time.deltaTime;
             speedup_timer -= Time.deltaTime;
           
-            fly_speed = 25;
+            fly_speed = cyrcle_speed;
             Camera.main.fieldOfView = Mathf.Lerp(60, 70, t); 
 
         }
         else
         {
             t -= 0.5f * Time.deltaTime;
-            fly_speed = 10;
+            fly_speed =default_speed;
             Camera.main.fieldOfView = Mathf.Lerp(60, 70, t); 
         }
 
