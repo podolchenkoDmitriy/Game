@@ -1,37 +1,46 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine;
 public class GameManager : MonoBehaviour
 {
-    public TextMeshProUGUI tmp;
+    public TextMeshProUGUI _scoreText;
 
     public int score;
+    public static GameManager instance;
 
-    public  void AddPoints(int points)
+    [Header("UIPanels")]
+    [Space]
+    public Transform winPanel;
+    public Transform losePanel;
+
+    private void Awake()
     {
-      score+=points;
+        if (instance == null)
+        {
+            instance = this;
+
+        }
+        else
+        {
+            Destroy(this);
+        }
+
+    }
+    public void AddPoints(int points)
+    {
+        StartCoroutine(CountScore(points));
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private IEnumerator CountScore(int points)
     {
+        int currentScore = score + points;
 
-    }
+        for (int i = score; i < currentScore; i+=10)
+        {
+            score += 10;
+            _scoreText.text = score.ToString();
 
-    void UI_Update()
-    {
-      tmp.text = score.ToString();
-
-    }
-    // Update is called once per frame
-    void Update()
-    {
-      UI_Update();
-
-
-
-
+            yield return new WaitForFixedUpdate();
+        }
     }
 }

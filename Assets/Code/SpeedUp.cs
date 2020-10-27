@@ -1,29 +1,46 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SpeedUp : MonoBehaviour
 {
-    public BulletController bullet;
-    public float speed=5;
-        // Start is called before the first frame update
-    void Start()
+    private PlayerController bullet;
+    public float speed = 5;
+
+    // Start is called before the first frame update
+    private void Start()
     {
-        bullet = GameObject.Find("Bullet").GetComponent<BulletController>();    
+        bullet = FindObjectOfType<PlayerController>().GetComponent<PlayerController>();
+        StartCoroutine(RotateObj());
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Bullet") 
+        if (gameObject.activeInHierarchy)
         {
-            bullet.speedup_timer += 5;
 
-            Destroy(gameObject);
+            if (other.GetComponent<PlayerController>())
+            {
+                Destroying();
+
+                bullet._flyightMoveSpeed += 0.25f;
+            }
         }
     }
-    // Update is called once per frame
-    void Update()
+
+    private void Destroying()
     {
-        transform.eulerAngles += new Vector3(0, 0, speed);
+        ParticleHolder.instance.Explousion(transform.position);
+        gameObject.SetActive(false);
     }
+
+    // Update is called once per frame
+    private IEnumerator RotateObj()
+    {
+        while (true)
+        {
+            transform.eulerAngles += new Vector3(0, 0, speed);
+            yield return new WaitForFixedUpdate();
+        }
+    }
+
 }
