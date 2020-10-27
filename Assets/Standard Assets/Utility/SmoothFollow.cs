@@ -14,18 +14,19 @@ namespace UnityStandardAssets.Utility
 		[SerializeField]
 		private float distance = 10.0f;
 		// the height we want the camera to be above the target
-		[SerializeField]
-		private float height = 5.0f;
+		public float height = 5.0f;
 
 		[SerializeField]
 		private float heightDamping;
 		public float smoothTime = 0.8f;
-		bool canIncrease = false;
+		private bool canIncrease = false;
+
 		// Use this for initialization
-		Vector3 velocity = Vector3.zero;
+		private Vector3 velocity = Vector3.zero;
 		public Vector2 limits;
+
 		// Update is called once per frame
-		void FixedUpdate()
+		private void FixedUpdate()
 		{
 			// Early out if we don't have a target
 			Vector3 localPos = transform.localPosition;
@@ -41,16 +42,16 @@ namespace UnityStandardAssets.Utility
 				Vector3 localPos = transform.localPosition;
 				Vector3 targetLocalPos = t.transform.localPosition;
 
-				var wantedHeight = target.position.y + height - localPos.y;
+				float wantedHeight = target.position.y + height - localPos.y;
 
-				var currentHeight = transform.position.y;
+				float currentHeight = transform.position.y;
 
 
 				// Damp the height
 				currentHeight = Mathf.Lerp(currentHeight, wantedHeight, heightDamping * Time.fixedDeltaTime);
 
-				
-				transform.localPosition = Vector3.SmoothDamp(localPos, new Vector3(targetLocalPos.x , currentHeight, targetLocalPos.z - distance), ref velocity, smoothTime);
+
+				transform.localPosition = Vector3.SmoothDamp(localPos, new Vector3(targetLocalPos.x, currentHeight, targetLocalPos.z - distance), ref velocity, smoothTime);
 
 			}
 
@@ -61,7 +62,8 @@ namespace UnityStandardAssets.Utility
 		{
 			StartCoroutine(ShakeRoutine(duration, magnitude));
 		}
-		IEnumerator ShakeRoutine(float duration, float magnitude)
+
+		private IEnumerator ShakeRoutine(float duration, float magnitude)
 		{
 			Vector3 origPos = transform.localPosition;
 			float elapsed = 0.0f;

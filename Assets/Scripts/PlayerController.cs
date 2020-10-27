@@ -14,9 +14,13 @@ public class PlayerController : MonoBehaviour
     public float moveSpeedInput = 60f;
     public float _smooth = 0.25f;
     public float _radius = 10f;
+    private SmoothFollow _camera;
+    private float _constHeight;
     private void Start()
     {
         StartCoroutine(Moving());
+        _camera = Camera.main.GetComponent<SmoothFollow>();
+        _constHeight = _camera.height;
     }
     private void ClampPosition()
     {
@@ -26,7 +30,8 @@ public class PlayerController : MonoBehaviour
         pos.y = Mathf.Clamp(pos.y, 0.1f, 0.9f);
         transform.position = Camera.main.ViewportToWorldPoint(pos);
     }
-    IEnumerator Moving()
+
+    private IEnumerator Moving()
     {
         while (true)
         {
@@ -59,11 +64,39 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private bool _canCollision = true;
     private void OnCollisionEnter(Collision collision)
     {
-        ParticleHolder.instance.CollisionEffect(collision.contacts[0].point);
 
-        Camera.main.GetComponent<SmoothFollow>().Shake(0.1f, 0.2f);
+        if (_canCollision)
+        {
+            _canCollision = false;
+            StartCoroutine(WaitForSecond());
+            ParticleHolder.instance.CollisionEffect(collision.contacts[0].point);
+
+            Camera.main.GetComponent<SmoothFollow>().Shake(0.1f, 0.2f);
+        }
+
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (_camera.height == _constHeight)
+        {
+            _camera.height = 0;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (_camera.height != _constHeight)
+        {
+            _camera.height = _constHeight;
+        }
+    }
+
+    private IEnumerator WaitForSecond()
+    {
+        yield return new WaitForSeconds(1f);
+        _canCollision = true;
     }
     private void Update()
     {
