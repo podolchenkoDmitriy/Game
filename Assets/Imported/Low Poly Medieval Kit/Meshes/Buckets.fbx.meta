@@ -1,9 +1,52 @@
 fileFormatVersion: 2
 guid: 32e7f0db4bd211c43909b99cdd2a807a
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
-  externalObjects: {}
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bucket 1
+    100002: Bucket 1 Broken
+    100004: Bucket 2
+    100006: Bucket 2 Broken
+    100008: Bucket 3
+    100010: Bucket Broken
+    100012: //RootNode
+    400000: Bucket 1
+    400002: Bucket 1 Broken
+    400004: Bucket 2
+    400006: Bucket 2 Broken
+    400008: Bucket 3
+    400010: Bucket Broken
+    400012: //RootNode
+    2300000: Bucket 1
+    2300002: Bucket 1 Broken
+    2300004: Bucket 2
+    2300006: Bucket 2 Broken
+    2300008: Bucket 3
+    2300010: Bucket Broken
+    3300000: Bucket 1
+    3300002: Bucket 1 Broken
+    3300004: Bucket 2
+    3300006: Bucket 2 Broken
+    3300008: Bucket 3
+    3300010: Bucket Broken
+    4300000: Bucket 1 Broken
+    4300002: Bucket 1
+    4300004: Bucket 2
+    4300006: Bucket 2 Broken
+    4300008: Bucket 3
+    4300010: Bucket Broken
+    6400000: Bucket 1
+    6400002: Bucket 1 Broken
+    6400004: Bucket 2
+    6400006: Bucket 2 Broken
+    6400008: Bucket 3
+    6400010: Bucket Broken
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color Pallet
+    second: {fileID: 2100000, guid: 846bdb2e2a1336b4fa6704d1e44bc933, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -38,7 +81,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -46,19 +88,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -67,11 +108,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +121,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

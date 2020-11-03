@@ -1,8 +1,70 @@
 fileFormatVersion: 2
 guid: 2eb34d922cd11e84d9360254547f85ea
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Floor Brick 1
+    100002: Floor Brick 10
+    100004: Floor Brick 2
+    100006: Floor Brick 3
+    100008: Floor Brick 4
+    100010: Floor Brick 5
+    100012: Floor Brick 6
+    100014: Floor Brick 7
+    100016: Floor Brick 8
+    100018: Floor Brick 9
+    100020: //RootNode
+    400000: Floor Brick 1
+    400002: Floor Brick 10
+    400004: Floor Brick 2
+    400006: Floor Brick 3
+    400008: Floor Brick 4
+    400010: Floor Brick 5
+    400012: Floor Brick 6
+    400014: Floor Brick 7
+    400016: Floor Brick 8
+    400018: Floor Brick 9
+    400020: //RootNode
+    2300000: Floor Brick 1
+    2300002: Floor Brick 10
+    2300004: Floor Brick 2
+    2300006: Floor Brick 3
+    2300008: Floor Brick 4
+    2300010: Floor Brick 5
+    2300012: Floor Brick 6
+    2300014: Floor Brick 7
+    2300016: Floor Brick 8
+    2300018: Floor Brick 9
+    3300000: Floor Brick 1
+    3300002: Floor Brick 10
+    3300004: Floor Brick 2
+    3300006: Floor Brick 3
+    3300008: Floor Brick 4
+    3300010: Floor Brick 5
+    3300012: Floor Brick 6
+    3300014: Floor Brick 7
+    3300016: Floor Brick 8
+    3300018: Floor Brick 9
+    4300000: Floor Brick 10
+    4300002: Floor Brick 1
+    4300004: Floor Brick 2
+    4300006: Floor Brick 9
+    4300008: Floor Brick 8
+    4300010: Floor Brick 7
+    4300012: Floor Brick 6
+    4300014: Floor Brick 5
+    4300016: Floor Brick 4
+    4300018: Floor Brick 3
+    6400000: Floor Brick 1
+    6400002: Floor Brick 10
+    6400004: Floor Brick 2
+    6400006: Floor Brick 3
+    6400008: Floor Brick 4
+    6400010: Floor Brick 5
+    6400012: Floor Brick 6
+    6400014: Floor Brick 7
+    6400016: Floor Brick 8
+    6400018: Floor Brick 9
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -43,7 +105,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -51,19 +112,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -72,11 +132,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -86,7 +145,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

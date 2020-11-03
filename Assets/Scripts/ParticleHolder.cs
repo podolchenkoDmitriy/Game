@@ -7,6 +7,7 @@ public class ParticleHolder : MonoBehaviour
     public static ParticleHolder instance;
     public Particle _collisionEffect;
     public Particle _speedUpExplousion;
+    public Particle _moneyParticle;
     private void Awake()
     {
         if (instance == null)
@@ -28,6 +29,12 @@ public class ParticleHolder : MonoBehaviour
     public void Explousion(Vector3 pos)
     {
         Instantiate(_speedUpExplousion, pos, Quaternion.identity);
+
+    }
+
+    public void AddMoney(Vector3 pos)
+    {
+        Instantiate(_moneyParticle, pos, Quaternion.identity, Camera.main.transform);
 
     }
 

@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - tree
   - burrel
+  - Exploder
   layers:
   - Default
   - TransparentFX

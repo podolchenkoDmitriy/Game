@@ -11,13 +11,15 @@ GameObject:
   - component: {fileID: 8890833442636042330}
   - component: {fileID: 1286472905433730069}
   - component: {fileID: 3594308707669781321}
-  - component: {fileID: 530765633557790936}
+  - component: {fileID: 752944068635343214}
+  - component: {fileID: 8715395686190978732}
+  - component: {fileID: 9063518076259350197}
   m_Layer: 0
   m_Name: Lantern 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8890833442636042330
 Transform:
@@ -26,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4201169119876034159}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 8641269997489892031}
   - {fileID: 5866733609918678401}
@@ -42,7 +44,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4201169119876034159}
-  m_Mesh: {fileID: -3748005411770395651, guid: a5b5c77bf54511e42a2806836530781b, type: 3}
+  m_Mesh: {fileID: 4300002, guid: a5b5c77bf54511e42a2806836530781b, type: 3}
 --- !u!23 &3594308707669781321
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -68,7 +70,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -81,8 +82,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &530765633557790936
-MeshCollider:
+--- !u!65 &752944068635343214
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,10 +92,35 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -3748005411770395651, guid: a5b5c77bf54511e42a2806836530781b, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.35, y: 2.9459832, z: 0.36544663}
+  m_Center: {x: 0, y: 1.457049, z: 0.0019340143}
+--- !u!65 &8715395686190978732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4201169119876034159}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.95865613, y: 0.2, z: 0.36544663}
+  m_Center: {x: 0.30069116, y: 2.77, z: 0.0019340143}
+--- !u!65 &9063518076259350197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4201169119876034159}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1, z: 0.36544663}
+  m_Center: {x: 0.66, y: 2.38, z: 0.0019340143}
 --- !u!1 &4245652776279252930
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,13 +132,13 @@ GameObject:
   - component: {fileID: 8641269997489892031}
   - component: {fileID: 8431900860601593217}
   - component: {fileID: 5200980531672190648}
-  - component: {fileID: 3219963102717167695}
+  - component: {fileID: 5585339439689316660}
   m_Layer: 0
   m_Name: Lantern 5 Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8641269997489892031
 Transform:
@@ -135,7 +161,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4245652776279252930}
-  m_Mesh: {fileID: -5268028607823806912, guid: a5b5c77bf54511e42a2806836530781b, type: 3}
+  m_Mesh: {fileID: 4300000, guid: a5b5c77bf54511e42a2806836530781b, type: 3}
 --- !u!23 &5200980531672190648
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -161,7 +187,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -174,7 +199,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3219963102717167695
+--- !u!64 &5585339439689316660
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,7 +212,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: -5268028607823806912, guid: a5b5c77bf54511e42a2806836530781b, type: 3}
+  m_Mesh: {fileID: 4300000, guid: a5b5c77bf54511e42a2806836530781b, type: 3}
 --- !u!1 &5866733609918678402
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +228,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5866733609918678401
 Transform:
@@ -227,13 +252,12 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5866733609918678402}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.85406965, b: 0.7688679, a: 1}
   m_Intensity: 2
   m_Range: 5
-  m_SpotAngle: 100
-  m_InnerSpotAngle: 1
+  m_SpotAngle: 103
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -243,24 +267,6 @@ Light:
     m_Bias: 0
     m_NormalBias: 0.4
     m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -268,14 +274,11 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0

@@ -1,14 +1,152 @@
 fileFormatVersion: 2
 guid: cc53ce7be5269c241a52d233a199a1bf
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Dead_Tree
+    100002: Dead_Tree_2
+    100004: Tree_1
+    100006: Tree_10
+    100008: Tree_11
+    100010: Tree_12
+    100012: Tree_13
+    100014: Tree_14
+    100016: Tree_14 Leaves
+    100018: Tree_15
+    100020: Tree_15 Leaves
+    100022: Tree_16
+    100024: Tree_16 Leaves
+    100026: Tree_2
+    100028: Tree_3
+    100030: Tree_4
+    100032: Tree_5
+    100034: Tree_6
+    100036: Tree_7
+    100038: Tree_8
+    100040: Tree_9
+    100042: //RootNode
+    400000: Dead_Tree
+    400002: Dead_Tree_2
+    400004: Tree_1
+    400006: Tree_10
+    400008: Tree_11
+    400010: Tree_12
+    400012: Tree_13
+    400014: Tree_14
+    400016: Tree_14 Leaves
+    400018: Tree_15
+    400020: Tree_15 Leaves
+    400022: Tree_16
+    400024: Tree_16 Leaves
+    400026: Tree_2
+    400028: Tree_3
+    400030: Tree_4
+    400032: Tree_5
+    400034: Tree_6
+    400036: Tree_7
+    400038: Tree_8
+    400040: Tree_9
+    400042: //RootNode
+    2300000: Dead_Tree
+    2300002: Dead_Tree_2
+    2300004: Tree_1
+    2300006: Tree_10
+    2300008: Tree_11
+    2300010: Tree_12
+    2300012: Tree_13
+    2300014: Tree_14
+    2300016: Tree_14 Leaves
+    2300018: Tree_15
+    2300020: Tree_15 Leaves
+    2300022: Tree_16
+    2300024: Tree_16 Leaves
+    2300026: Tree_2
+    2300028: Tree_3
+    2300030: Tree_4
+    2300032: Tree_5
+    2300034: Tree_6
+    2300036: Tree_7
+    2300038: Tree_8
+    2300040: Tree_9
+    3300000: Dead_Tree
+    3300002: Dead_Tree_2
+    3300004: Tree_1
+    3300006: Tree_10
+    3300008: Tree_11
+    3300010: Tree_12
+    3300012: Tree_13
+    3300014: Tree_14
+    3300016: Tree_14 Leaves
+    3300018: Tree_15
+    3300020: Tree_15 Leaves
+    3300022: Tree_16
+    3300024: Tree_16 Leaves
+    3300026: Tree_2
+    3300028: Tree_3
+    3300030: Tree_4
+    3300032: Tree_5
+    3300034: Tree_6
+    3300036: Tree_7
+    3300038: Tree_8
+    3300040: Tree_9
+    4300000: Tree_14
+    4300002: Tree_10
+    4300004: Tree_1
+    4300006: Tree_13
+    4300008: Tree_12
+    4300010: Tree_11
+    4300012: Tree_9
+    4300014: Dead_Tree_2
+    4300016: Dead_Tree
+    4300018: Tree_8
+    4300020: Tree_7
+    4300022: Tree_6
+    4300024: Tree_5
+    4300026: Tree_4
+    4300028: Tree_3
+    4300030: Tree_2
+    4300032: Tree_14 Leaves
+    4300034: Tree_15
+    4300036: Tree_15 Leaves
+    4300038: Tree_16
+    4300040: Tree_16 Leaves
+    6400000: Dead_Tree
+    6400002: Dead_Tree_2
+    6400004: Tree_1
+    6400006: Tree_10
+    6400008: Tree_11
+    6400010: Tree_12
+    6400012: Tree_13
+    6400014: Tree_14
+    6400016: Tree_14 Leaves
+    6400018: Tree_15
+    6400020: Tree_15 Leaves
+    6400022: Tree_16
+    6400024: Tree_16 Leaves
+    6400026: Tree_2
+    6400028: Tree_3
+    6400030: Tree_4
+    6400032: Tree_5
+    6400034: Tree_6
+    6400036: Tree_7
+    6400038: Tree_8
+    6400040: Tree_9
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color Pallet
+    second: {fileID: 2100000, guid: 846bdb2e2a1336b4fa6704d1e44bc933, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Color_Pallet
     second: {fileID: 2100000, guid: f697d25b2164a1d45b7a9b09767ffa06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pine Tree Branch
+    second: {fileID: 2100000, guid: d3478ab1077373c41a26686f56392346, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -43,7 +181,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -51,19 +188,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -72,11 +208,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -86,7 +221,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

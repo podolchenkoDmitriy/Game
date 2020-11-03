@@ -1,8 +1,52 @@
 fileFormatVersion: 2
 guid: 9fbde12b2b72036408011a294fe94981
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Wardrobe 1
+    100002: Wardrobe 1 Door 1
+    100004: Wardrobe 1 Door 2
+    100006: Wardrobe 2
+    100008: Wardrobe 3
+    100010: Wardrobe 4
+    100012: Wardrobe 5
+    100014: //RootNode
+    400000: Wardrobe 1
+    400002: Wardrobe 1 Door 1
+    400004: Wardrobe 1 Door 2
+    400006: Wardrobe 2
+    400008: Wardrobe 3
+    400010: Wardrobe 4
+    400012: Wardrobe 5
+    400014: //RootNode
+    2300000: Wardrobe 1
+    2300002: Wardrobe 1 Door 1
+    2300004: Wardrobe 1 Door 2
+    2300006: Wardrobe 2
+    2300008: Wardrobe 3
+    2300010: Wardrobe 4
+    2300012: Wardrobe 5
+    3300000: Wardrobe 1
+    3300002: Wardrobe 1 Door 1
+    3300004: Wardrobe 1 Door 2
+    3300006: Wardrobe 2
+    3300008: Wardrobe 3
+    3300010: Wardrobe 4
+    3300012: Wardrobe 5
+    4300000: Wardrobe 5
+    4300002: Wardrobe 1 Door 2
+    4300004: Wardrobe 1 Door 1
+    4300006: Wardrobe 4
+    4300008: Wardrobe 3
+    4300010: Wardrobe 2
+    4300012: Wardrobe 1
+    6400000: Wardrobe 1
+    6400002: Wardrobe 1 Door 1
+    6400004: Wardrobe 1 Door 2
+    6400006: Wardrobe 2
+    6400008: Wardrobe 3
+    6400010: Wardrobe 4
+    6400012: Wardrobe 5
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -43,7 +87,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -51,19 +94,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -72,11 +114,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -86,7 +127,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -1,8 +1,126 @@
 fileFormatVersion: 2
 guid: dd7f98f972a0dca45aae25dfa397d196
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: pasted__pCube1_group
+    100002: pCube52
+    100004: pCube55
+    100006: pCube56
+    100008: pCube57
+    100010: pCube58
+    100012: pCube59
+    100014: pCube60
+    100016: pCube61
+    100018: pCube62
+    100020: pCube63
+    100022: pCube64
+    100024: pCube65
+    100026: pCube66
+    100028: pCube67
+    100030: pCube68
+    100032: pCube69
+    100034: pCube70
+    100036: pCube71
+    100038: pCube72
+    100040: pCube73
+    100042: pCube74
+    100044: pCube75
+    100046: //RootNode
+    400000: pasted__pCube1_group
+    400002: pCube52
+    400004: pCube55
+    400006: pCube56
+    400008: pCube57
+    400010: pCube58
+    400012: pCube59
+    400014: pCube60
+    400016: pCube61
+    400018: pCube62
+    400020: pCube63
+    400022: pCube64
+    400024: pCube65
+    400026: pCube66
+    400028: pCube67
+    400030: pCube68
+    400032: pCube69
+    400034: pCube70
+    400036: pCube71
+    400038: pCube72
+    400040: pCube73
+    400042: pCube74
+    400044: pCube75
+    400046: //RootNode
+    2300000: pasted__pCube1_group
+    2300002: pCube52
+    2300004: pCube55
+    2300006: pCube56
+    2300008: pCube57
+    2300010: pCube58
+    2300012: pCube59
+    2300014: pCube60
+    2300016: pCube61
+    2300018: pCube62
+    2300020: pCube63
+    2300022: pCube64
+    2300024: pCube65
+    2300026: pCube66
+    2300028: pCube67
+    2300030: pCube68
+    2300032: pCube69
+    2300034: pCube70
+    2300036: pCube71
+    2300038: pCube72
+    2300040: pCube73
+    2300042: pCube74
+    2300044: pCube75
+    3300000: pasted__pCube1_group
+    3300002: pCube52
+    3300004: pCube55
+    3300006: pCube56
+    3300008: pCube57
+    3300010: pCube58
+    3300012: pCube59
+    3300014: pCube60
+    3300016: pCube61
+    3300018: pCube62
+    3300020: pCube63
+    3300022: pCube64
+    3300024: pCube65
+    3300026: pCube66
+    3300028: pCube67
+    3300030: pCube68
+    3300032: pCube69
+    3300034: pCube70
+    3300036: pCube71
+    3300038: pCube72
+    3300040: pCube73
+    3300042: pCube74
+    3300044: pCube75
+    4300000: pasted__pCube1_group
+    4300002: pCube52
+    4300004: pCube55
+    4300006: pCube56
+    4300008: pCube57
+    4300010: pCube58
+    4300012: pCube59
+    4300014: pCube60
+    4300016: pCube61
+    4300018: pCube62
+    4300020: pCube63
+    4300022: pCube64
+    4300024: pCube65
+    4300026: pCube66
+    4300028: pCube67
+    4300030: pCube68
+    4300032: pCube69
+    4300034: pCube70
+    4300036: pCube71
+    4300038: pCube72
+    4300040: pCube73
+    4300042: pCube74
+    4300044: pCube75
+    9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -120,7 +238,7 @@ ModelImporter:
       name: pasted__pCube1_groupMat
     second: {fileID: 2100000, guid: 5f086651b5510dc489baa92d6dcd92e6, type: 2}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -153,32 +271,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -187,10 +298,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -200,16 +311,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

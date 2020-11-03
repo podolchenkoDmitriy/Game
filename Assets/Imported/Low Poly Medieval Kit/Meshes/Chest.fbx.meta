@@ -1,9 +1,76 @@
 fileFormatVersion: 2
 guid: 8b293906c962f914a88e24bedb9a0ac1
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bones 1
+    100002: Bones 2
+    100004: //RootNode
+    100006: Chest Base
+    100008: Cover
+    100010: Cube
+    100012: Lock
+    100014: Lock 2
+    100016: Lock 3
+    100018: Skull 1
+    100020: Skull 2
+    400000: Bones 1
+    400002: Bones 2
+    400004: //RootNode
+    400006: Chest Base
+    400008: Cover
+    400010: Cube
+    400012: Lock
+    400014: Lock 2
+    400016: Lock 3
+    400018: Skull 1
+    400020: Skull 2
+    2300000: Bones 1
+    2300002: Bones 2
+    2300004: Chest Base
+    2300006: Cover
+    2300008: Cube
+    2300010: Lock
+    2300012: Lock 2
+    2300014: Lock 3
+    2300016: Skull 1
+    2300018: Skull 2
+    3300000: Bones 1
+    3300002: Bones 2
+    3300004: Chest Base
+    3300006: Cover
+    3300008: Cube
+    3300010: Lock
+    3300012: Lock 2
+    3300014: Lock 3
+    3300016: Skull 1
+    3300018: Skull 2
+    4300000: Skull 2
+    4300002: Bones 1
+    4300004: Bones 2
+    4300006: Skull 1
+    4300008: Lock
+    4300010: Lock 3
+    4300012: Lock 2
+    4300014: Cube
+    4300016: Cover
+    4300018: Chest Base
+    6400000: Bones 1
+    6400002: Bones 2
+    6400004: Chest Base
+    6400006: Cover
+    6400008: Cube
+    6400010: Lock
+    6400012: Lock 2
+    6400014: Lock 3
+    6400016: Skull 1
+    6400018: Skull 2
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color Pallet
+    second: {fileID: 2100000, guid: 846bdb2e2a1336b4fa6704d1e44bc933, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -43,7 +110,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -51,19 +117,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -72,11 +137,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -86,7 +150,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -1,8 +1,41 @@
 fileFormatVersion: 2
 guid: 55dff0644d6d34b48bebb8614747403e
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: pCube10
+    100002: pCube22
+    100004: pCube23
+    100006: pCube30
+    100008: pCube7
+    100010: pCube9
+    100012: //RootNode
+    400000: pCube10
+    400002: pCube22
+    400004: pCube23
+    400006: pCube30
+    400008: pCube7
+    400010: pCube9
+    400012: //RootNode
+    2300000: pCube10
+    2300002: pCube22
+    2300004: pCube23
+    2300006: pCube30
+    2300008: pCube7
+    2300010: pCube9
+    3300000: pCube10
+    3300002: pCube22
+    3300004: pCube23
+    3300006: pCube30
+    3300008: pCube7
+    3300010: pCube9
+    4300000: pCube10
+    4300002: pCube22
+    4300004: pCube23
+    4300006: pCube30
+    4300008: pCube7
+    4300010: pCube9
+    9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -35,7 +68,7 @@ ModelImporter:
       name: pCube9Mat
     second: {fileID: 2100000, guid: 5f086651b5510dc489baa92d6dcd92e6, type: 2}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -68,32 +101,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -102,10 +128,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -115,16 +141,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

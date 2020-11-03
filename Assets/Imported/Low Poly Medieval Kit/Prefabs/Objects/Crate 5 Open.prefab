@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3345905590365603685}
-  m_Mesh: {fileID: -5435938351648954709, guid: 87f6c38e1dda38049984452a05c5cc7f, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 87f6c38e1dda38049984452a05c5cc7f, type: 3}
 --- !u!23 &5078699776428222012
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -66,7 +66,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -92,7 +91,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: -5435938351648954709, guid: 87f6c38e1dda38049984452a05c5cc7f, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 87f6c38e1dda38049984452a05c5cc7f, type: 3}
 --- !u!1 &6081433959221632000
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,9 +118,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6081433959221632000}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 914686124302685364}
   m_Father: {fileID: 0}
@@ -134,7 +133,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6081433959221632000}
-  m_Mesh: {fileID: 6836409820040890378, guid: 87f6c38e1dda38049984452a05c5cc7f, type: 3}
+  m_Mesh: {fileID: 4300002, guid: 87f6c38e1dda38049984452a05c5cc7f, type: 3}
 --- !u!23 &8691300706605770483
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -160,7 +159,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -186,4 +184,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 6836409820040890378, guid: 87f6c38e1dda38049984452a05c5cc7f, type: 3}
+  m_Mesh: {fileID: 4300002, guid: 87f6c38e1dda38049984452a05c5cc7f, type: 3}

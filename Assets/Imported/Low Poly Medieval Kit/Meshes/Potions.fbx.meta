@@ -1,8 +1,70 @@
 fileFormatVersion: 2
 guid: 815ea27b293fc7f49b1f482a9c28b02e
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Potion 1
+    100002: Potion 10
+    100004: Potion 2
+    100006: Potion 3
+    100008: Potion 4
+    100010: Potion 5
+    100012: Potion 6
+    100014: Potion 7
+    100016: Potion 8
+    100018: Potion 9
+    100020: //RootNode
+    400000: Potion 1
+    400002: Potion 10
+    400004: Potion 2
+    400006: Potion 3
+    400008: Potion 4
+    400010: Potion 5
+    400012: Potion 6
+    400014: Potion 7
+    400016: Potion 8
+    400018: Potion 9
+    400020: //RootNode
+    2300000: Potion 1
+    2300002: Potion 10
+    2300004: Potion 2
+    2300006: Potion 3
+    2300008: Potion 4
+    2300010: Potion 5
+    2300012: Potion 6
+    2300014: Potion 7
+    2300016: Potion 8
+    2300018: Potion 9
+    3300000: Potion 1
+    3300002: Potion 10
+    3300004: Potion 2
+    3300006: Potion 3
+    3300008: Potion 4
+    3300010: Potion 5
+    3300012: Potion 6
+    3300014: Potion 7
+    3300016: Potion 8
+    3300018: Potion 9
+    4300000: Potion 1
+    4300002: Potion 10
+    4300004: Potion 9
+    4300006: Potion 8
+    4300008: Potion 7
+    4300010: Potion 6
+    4300012: Potion 5
+    4300014: Potion 4
+    4300016: Potion 3
+    4300018: Potion 2
+    6400000: Potion 1
+    6400002: Potion 10
+    6400004: Potion 2
+    6400006: Potion 3
+    6400008: Potion 4
+    6400010: Potion 5
+    6400012: Potion 6
+    6400014: Potion 7
+    6400016: Potion 8
+    6400018: Potion 9
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -48,7 +110,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -56,19 +117,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -77,11 +137,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -91,7 +150,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

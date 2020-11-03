@@ -18,11 +18,11 @@ public class SpeedUp : MonoBehaviour
         if (gameObject.activeInHierarchy)
         {
 
-            if (other.GetComponent<PlayerController>())
+            if (other.isTrigger && other.GetComponent<PlayerController>())
             {
                 Destroying();
 
-                bullet._flyightMoveSpeed += 0.25f;
+                bullet._flyightMoveSpeed += 0.1f;
             }
         }
     }
@@ -38,7 +38,7 @@ public class SpeedUp : MonoBehaviour
     {
         while (true)
         {
-            transform.eulerAngles += new Vector3(0, 0, speed);
+            transform.eulerAngles += new Vector3(0, speed, speed);
             yield return new WaitForFixedUpdate();
         }
     }

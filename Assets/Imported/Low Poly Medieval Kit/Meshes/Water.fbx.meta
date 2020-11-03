@@ -1,8 +1,46 @@
 fileFormatVersion: 2
 guid: 0c80300d1be5b0540a627276d40fc424
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Big Water
+    100002: Big Water 2
+    100004: Small Water
+    100006: Small Water 2
+    100008: //RootNode
+    100010: Water
+    100012: Water 2
+    400000: Big Water
+    400002: Big Water 2
+    400004: Small Water
+    400006: Small Water 2
+    400008: //RootNode
+    400010: Water
+    400012: Water 2
+    2300000: Big Water
+    2300002: Big Water 2
+    2300004: Small Water
+    2300006: Small Water 2
+    2300008: Water
+    2300010: Water 2
+    3300000: Big Water
+    3300002: Big Water 2
+    3300004: Small Water
+    3300006: Small Water 2
+    3300008: Water
+    3300010: Water 2
+    4300000: Small Water
+    4300002: Small Water 2
+    4300004: Water
+    4300006: Water 2
+    4300008: Big Water
+    4300010: Big Water 2
+    6400000: Big Water
+    6400002: Big Water 2
+    6400004: Small Water
+    6400006: Small Water 2
+    6400008: Water
+    6400010: Water 2
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -43,7 +81,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -51,19 +88,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -72,11 +108,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -86,7 +121,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

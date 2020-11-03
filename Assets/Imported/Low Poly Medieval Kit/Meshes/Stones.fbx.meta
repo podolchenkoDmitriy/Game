@@ -1,9 +1,142 @@
 fileFormatVersion: 2
 guid: 82de1f12eb23f9d4ab1dc321682749b2
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
-  externalObjects: {}
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Stone 1
+    100002: Stone 10
+    100004: Stone 11
+    100006: Stone 12
+    100008: Stone 13
+    100010: Stone 14
+    100012: Stone 15
+    100014: Stone 16
+    100016: Stone 17
+    100018: Stone 18
+    100020: Stone 19
+    100022: Stone 2
+    100024: Stone 20
+    100026: Stone 21
+    100028: Stone 3
+    100030: Stone 4
+    100032: Stone 5
+    100034: Stone 6
+    100036: Stone 7
+    100038: Stone 8
+    100040: Stone 9
+    100042: //RootNode
+    400000: Stone 1
+    400002: Stone 10
+    400004: Stone 11
+    400006: Stone 12
+    400008: Stone 13
+    400010: Stone 14
+    400012: Stone 15
+    400014: Stone 16
+    400016: Stone 17
+    400018: Stone 18
+    400020: Stone 19
+    400022: Stone 2
+    400024: Stone 20
+    400026: Stone 21
+    400028: Stone 3
+    400030: Stone 4
+    400032: Stone 5
+    400034: Stone 6
+    400036: Stone 7
+    400038: Stone 8
+    400040: Stone 9
+    400042: //RootNode
+    2300000: Stone 1
+    2300002: Stone 10
+    2300004: Stone 11
+    2300006: Stone 12
+    2300008: Stone 13
+    2300010: Stone 14
+    2300012: Stone 15
+    2300014: Stone 16
+    2300016: Stone 17
+    2300018: Stone 18
+    2300020: Stone 19
+    2300022: Stone 2
+    2300024: Stone 20
+    2300026: Stone 21
+    2300028: Stone 3
+    2300030: Stone 4
+    2300032: Stone 5
+    2300034: Stone 6
+    2300036: Stone 7
+    2300038: Stone 8
+    2300040: Stone 9
+    3300000: Stone 1
+    3300002: Stone 10
+    3300004: Stone 11
+    3300006: Stone 12
+    3300008: Stone 13
+    3300010: Stone 14
+    3300012: Stone 15
+    3300014: Stone 16
+    3300016: Stone 17
+    3300018: Stone 18
+    3300020: Stone 19
+    3300022: Stone 2
+    3300024: Stone 20
+    3300026: Stone 21
+    3300028: Stone 3
+    3300030: Stone 4
+    3300032: Stone 5
+    3300034: Stone 6
+    3300036: Stone 7
+    3300038: Stone 8
+    3300040: Stone 9
+    4300000: Stone 21
+    4300002: Stone 20
+    4300004: Stone 19
+    4300006: Stone 18
+    4300008: Stone 17
+    4300010: Stone 16
+    4300012: Stone 15
+    4300014: Stone 14
+    4300016: Stone 13
+    4300018: Stone 12
+    4300020: Stone 11
+    4300022: Stone 10
+    4300024: Stone 9
+    4300026: Stone 8
+    4300028: Stone 7
+    4300030: Stone 6
+    4300032: Stone 5
+    4300034: Stone 4
+    4300036: Stone 3
+    4300038: Stone 1
+    4300040: Stone 2
+    6400000: Stone 1
+    6400002: Stone 10
+    6400004: Stone 11
+    6400006: Stone 12
+    6400008: Stone 13
+    6400010: Stone 14
+    6400012: Stone 15
+    6400014: Stone 16
+    6400016: Stone 17
+    6400018: Stone 18
+    6400020: Stone 19
+    6400022: Stone 2
+    6400024: Stone 20
+    6400026: Stone 21
+    6400028: Stone 3
+    6400030: Stone 4
+    6400032: Stone 5
+    6400034: Stone 6
+    6400036: Stone 7
+    6400038: Stone 8
+    6400040: Stone 9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color Pallet
+    second: {fileID: 2100000, guid: 846bdb2e2a1336b4fa6704d1e44bc933, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -38,7 +171,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -46,19 +178,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -67,11 +198,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +211,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

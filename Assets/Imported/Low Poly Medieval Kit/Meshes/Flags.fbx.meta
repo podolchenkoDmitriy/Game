@@ -1,9 +1,76 @@
 fileFormatVersion: 2
 guid: 942990001bbcc78408e059bae95ef55c
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
-  externalObjects: {}
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Flag 1
+    100002: Flag 10
+    100004: Flag 2
+    100006: Flag 3
+    100008: Flag 4
+    100010: Flag 5
+    100012: Flag 6
+    100014: Flag 7
+    100016: Flag 8
+    100018: Flag 9
+    100020: //RootNode
+    400000: Flag 1
+    400002: Flag 10
+    400004: Flag 2
+    400006: Flag 3
+    400008: Flag 4
+    400010: Flag 5
+    400012: Flag 6
+    400014: Flag 7
+    400016: Flag 8
+    400018: Flag 9
+    400020: //RootNode
+    2300000: Flag 1
+    2300002: Flag 10
+    2300004: Flag 2
+    2300006: Flag 3
+    2300008: Flag 4
+    2300010: Flag 5
+    2300012: Flag 6
+    2300014: Flag 7
+    2300016: Flag 8
+    2300018: Flag 9
+    3300000: Flag 1
+    3300002: Flag 10
+    3300004: Flag 2
+    3300006: Flag 3
+    3300008: Flag 4
+    3300010: Flag 5
+    3300012: Flag 6
+    3300014: Flag 7
+    3300016: Flag 8
+    3300018: Flag 9
+    4300000: Flag 10
+    4300002: Flag 9
+    4300004: Flag 8
+    4300006: Flag 7
+    4300008: Flag 6
+    4300010: Flag 5
+    4300012: Flag 4
+    4300014: Flag 3
+    4300016: Flag 2
+    4300018: Flag 1
+    6400000: Flag 1
+    6400002: Flag 10
+    6400004: Flag 2
+    6400006: Flag 3
+    6400008: Flag 4
+    6400010: Flag 5
+    6400012: Flag 6
+    6400014: Flag 7
+    6400016: Flag 8
+    6400018: Flag 9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color Pallet
+    second: {fileID: 2100000, guid: 846bdb2e2a1336b4fa6704d1e44bc933, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -38,7 +105,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -46,19 +112,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -67,11 +132,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +145,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

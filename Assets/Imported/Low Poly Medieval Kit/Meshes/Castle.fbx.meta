@@ -1,11 +1,146 @@
 fileFormatVersion: 2
 guid: dfb4fa96d5164464b8f0f2e679026d15
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Castle Bridge 1
+    100004: Castle Bridge 2
+    100006: Castle Bridge 3
+    100008: Castle Bridge 4
+    100010: Castle Bridge 5
+    100012: Castle Bridge 6
+    100014: Castle Stairs
+    100016: Castle Tower 1
+    100018: Castle Tower 2
+    100020: Castle Tower 2 Door 1
+    100022: Castle Tower 2 Door 2
+    100024: Castle Tower 3
+    100026: Castle Tower 4
+    100028: Castle Wall 1
+    100030: Castle Wall 2
+    100032: Castle Wall 3
+    100034: Castle Wall 4
+    100036: Castle Wall 5
+    100038: Gate Wall 1
+    100040: 'Gate Wall 2 '
+    100042: Gate Wall 2 Gate
+    100044: Gate Wall 3
+    100046: Gate Wall 4
+    100048: Gate Wall 4 Gate
+    100050: Gate Wall 5
+    100052: Gate Wall 5 Gate
+    400000: //RootNode
+    400002: Castle Bridge 1
+    400004: Castle Bridge 2
+    400006: Castle Bridge 3
+    400008: Castle Bridge 4
+    400010: Castle Bridge 5
+    400012: Castle Bridge 6
+    400014: Castle Stairs
+    400016: Castle Tower 1
+    400018: Castle Tower 2
+    400020: Castle Tower 2 Door 1
+    400022: Castle Tower 2 Door 2
+    400024: Castle Tower 3
+    400026: Castle Tower 4
+    400028: Castle Wall 1
+    400030: Castle Wall 2
+    400032: Castle Wall 3
+    400034: Castle Wall 4
+    400036: Castle Wall 5
+    400038: Gate Wall 1
+    400040: 'Gate Wall 2 '
+    400042: Gate Wall 2 Gate
+    400044: Gate Wall 3
+    400046: Gate Wall 4
+    400048: Gate Wall 4 Gate
+    400050: Gate Wall 5
+    400052: Gate Wall 5 Gate
+    2100000: Color Pallet
+    2300000: Castle Bridge 1
+    2300002: Castle Bridge 2
+    2300004: Castle Bridge 3
+    2300006: Castle Bridge 4
+    2300008: Castle Bridge 5
+    2300010: Castle Bridge 6
+    2300012: Castle Stairs
+    2300014: Castle Tower 1
+    2300016: Castle Tower 2
+    2300018: Castle Tower 2 Door 1
+    2300020: Castle Tower 2 Door 2
+    2300022: Castle Tower 3
+    2300024: Castle Tower 4
+    2300026: Castle Wall 1
+    2300028: Castle Wall 2
+    2300030: Castle Wall 3
+    2300032: Castle Wall 4
+    2300034: Castle Wall 5
+    2300036: Gate Wall 1
+    2300038: 'Gate Wall 2 '
+    2300040: Gate Wall 2 Gate
+    2300042: Gate Wall 3
+    2300044: Gate Wall 4
+    2300046: Gate Wall 4 Gate
+    2300048: Gate Wall 5
+    2300050: Gate Wall 5 Gate
+    3300000: Castle Bridge 1
+    3300002: Castle Bridge 2
+    3300004: Castle Bridge 3
+    3300006: Castle Bridge 4
+    3300008: Castle Bridge 5
+    3300010: Castle Bridge 6
+    3300012: Castle Stairs
+    3300014: Castle Tower 1
+    3300016: Castle Tower 2
+    3300018: Castle Tower 2 Door 1
+    3300020: Castle Tower 2 Door 2
+    3300022: Castle Tower 3
+    3300024: Castle Tower 4
+    3300026: Castle Wall 1
+    3300028: Castle Wall 2
+    3300030: Castle Wall 3
+    3300032: Castle Wall 4
+    3300034: Castle Wall 5
+    3300036: Gate Wall 1
+    3300038: 'Gate Wall 2 '
+    3300040: Gate Wall 2 Gate
+    3300042: Gate Wall 3
+    3300044: Gate Wall 4
+    3300046: Gate Wall 4 Gate
+    3300048: Gate Wall 5
+    3300050: Gate Wall 5 Gate
+    4300000: Castle Wall 1
+    4300002: Castle Wall 2
+    4300004: Castle Wall 3
+    4300006: Castle Wall 4
+    4300008: Castle Wall 5
+    4300010: Gate Wall 1
+    4300012: 'Gate Wall 2 '
+    4300014: Gate Wall 2 Gate
+    4300016: Gate Wall 3
+    4300018: Gate Wall 4
+    4300020: Gate Wall 4 Gate
+    4300022: Gate Wall 5
+    4300024: Gate Wall 5 Gate
+    4300026: Castle Tower 1
+    4300028: Castle Tower 2
+    4300030: Castle Tower 2 Door 1
+    4300032: Castle Tower 2 Door 2
+    4300034: Castle Stairs
+    4300036: Castle Bridge 1
+    4300038: Castle Bridge 2
+    4300040: Castle Bridge 3
+    4300042: Castle Bridge 4
+    4300044: Castle Tower 3
+    4300046: Castle Bridge 5
+    4300048: Castle Bridge 6
+    4300050: Castle Tower 4
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -38,32 +173,25 @@ ModelImporter:
     meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -72,10 +200,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -85,16 +213,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

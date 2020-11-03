@@ -1,9 +1,106 @@
 fileFormatVersion: 2
 guid: a783f69e78e030b4cbfd771bdbecd63b
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
-  externalObjects: {}
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Board 1
+    100002: Board 10
+    100004: Board 11
+    100006: Board 12
+    100008: Board 13
+    100010: Board 2
+    100012: Board 3
+    100014: Board 4
+    100016: Board 5
+    100018: Board 6
+    100020: Board 7
+    100022: Board 8
+    100024: Board 9
+    100026: //RootNode
+    100028: Boards
+    100030: Boards with rope
+    400000: Board 1
+    400002: Board 10
+    400004: Board 11
+    400006: Board 12
+    400008: Board 13
+    400010: Board 2
+    400012: Board 3
+    400014: Board 4
+    400016: Board 5
+    400018: Board 6
+    400020: Board 7
+    400022: Board 8
+    400024: Board 9
+    400026: Boards
+    400028: //RootNode
+    400030: Boards with rope
+    2300000: Board 1
+    2300002: Board 10
+    2300004: Board 11
+    2300006: Board 12
+    2300008: Board 13
+    2300010: Board 2
+    2300012: Board 3
+    2300014: Board 4
+    2300016: Board 5
+    2300018: Board 6
+    2300020: Board 7
+    2300022: Board 8
+    2300024: Board 9
+    2300026: Boards
+    2300028: Boards with rope
+    3300000: Board 1
+    3300002: Board 10
+    3300004: Board 11
+    3300006: Board 12
+    3300008: Board 13
+    3300010: Board 2
+    3300012: Board 3
+    3300014: Board 4
+    3300016: Board 5
+    3300018: Board 6
+    3300020: Board 7
+    3300022: Board 8
+    3300024: Board 9
+    3300026: Boards
+    3300028: Boards with rope
+    4300000: Board 13
+    4300002: Board 12
+    4300004: Board 11
+    4300006: Board 10
+    4300008: Board 9
+    4300010: Board 8
+    4300012: Board 7
+    4300014: Board 6
+    4300016: Board 5
+    4300018: Board 4
+    4300020: Board 3
+    4300022: Board 2
+    4300024: Boards with rope
+    4300026: Boards
+    4300028: Board 1
+    6400000: Board 1
+    6400002: Board 10
+    6400004: Board 11
+    6400006: Board 12
+    6400008: Board 13
+    6400010: Board 2
+    6400012: Board 3
+    6400014: Board 4
+    6400016: Board 5
+    6400018: Board 6
+    6400020: Board 7
+    6400022: Board 8
+    6400024: Board 9
+    6400026: Boards
+    6400028: Boards with rope
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color Pallet
+    second: {fileID: 2100000, guid: 846bdb2e2a1336b4fa6704d1e44bc933, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -38,7 +135,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -46,19 +142,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -67,11 +162,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +175,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

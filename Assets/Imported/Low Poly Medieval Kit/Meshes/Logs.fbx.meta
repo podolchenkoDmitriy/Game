@@ -1,8 +1,142 @@
 fileFormatVersion: 2
 guid: 5b91f2c7dd79b4945b166ed996d71ec1
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Half a log
+    100002: Log 1
+    100004: Log 10
+    100006: Log 11
+    100008: Log 12
+    100010: Log 13
+    100012: Log 14
+    100014: Log 15
+    100016: Log 16
+    100018: Log 17
+    100020: Log 18
+    100022: Log 2
+    100024: Log 3
+    100026: Log 4
+    100028: Log 5
+    100030: Log 6
+    100032: Log 7
+    100034: Log 8
+    100036: Log 9
+    100038: Log Bench
+    100040: Log Bench 2
+    100042: //RootNode
+    100044: Quarter a log
+    400000: Half a log
+    400002: Log 1
+    400004: Log 10
+    400006: Log 11
+    400008: Log 12
+    400010: Log 13
+    400012: Log 14
+    400014: Log 15
+    400016: Log 16
+    400018: Log 17
+    400020: Log 18
+    400022: Log 2
+    400024: Log 3
+    400026: Log 4
+    400028: Log 5
+    400030: Log 6
+    400032: Log 7
+    400034: Log 8
+    400036: Log 9
+    400038: Log Bench
+    400040: Log Bench 2
+    400042: //RootNode
+    400044: Quarter a log
+    2300000: Half a log
+    2300002: Log 1
+    2300004: Log 10
+    2300006: Log 11
+    2300008: Log 12
+    2300010: Log 13
+    2300012: Log 14
+    2300014: Log 15
+    2300016: Log 16
+    2300018: Log 17
+    2300020: Log 18
+    2300022: Log 2
+    2300024: Log 3
+    2300026: Log 4
+    2300028: Log 5
+    2300030: Log 6
+    2300032: Log 7
+    2300034: Log 8
+    2300036: Log 9
+    2300038: Log Bench
+    2300040: Log Bench 2
+    2300042: Quarter a log
+    3300000: Half a log
+    3300002: Log 1
+    3300004: Log 10
+    3300006: Log 11
+    3300008: Log 12
+    3300010: Log 13
+    3300012: Log 14
+    3300014: Log 15
+    3300016: Log 16
+    3300018: Log 17
+    3300020: Log 18
+    3300022: Log 2
+    3300024: Log 3
+    3300026: Log 4
+    3300028: Log 5
+    3300030: Log 6
+    3300032: Log 7
+    3300034: Log 8
+    3300036: Log 9
+    3300038: Log Bench
+    3300040: Log Bench 2
+    3300042: Quarter a log
+    4300000: Log 18
+    4300002: Log 17
+    4300004: Log 16
+    4300006: Log 15
+    4300008: Log 14
+    4300010: Log 13
+    4300012: Log 11
+    4300014: Log 10
+    4300016: Log 12
+    4300018: Log 9
+    4300020: Log 8
+    4300022: Log 7
+    4300024: Log 6
+    4300026: Log 5
+    4300028: Log Bench 2
+    4300030: Log 4
+    4300032: Log Bench
+    4300034: Log 3
+    4300036: Log 2
+    4300038: Quarter a log
+    4300040: Half a log
+    4300042: Log 1
+    6400000: Half a log
+    6400002: Log 1
+    6400004: Log 10
+    6400006: Log 11
+    6400008: Log 12
+    6400010: Log 13
+    6400012: Log 14
+    6400014: Log 15
+    6400016: Log 16
+    6400018: Log 17
+    6400020: Log 18
+    6400022: Log 2
+    6400024: Log 3
+    6400026: Log 4
+    6400028: Log 5
+    6400030: Log 6
+    6400032: Log 7
+    6400034: Log 8
+    6400036: Log 9
+    6400038: Log Bench
+    6400040: Log Bench 2
+    6400042: Quarter a log
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -43,7 +177,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -51,19 +184,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -72,11 +204,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -86,7 +217,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
