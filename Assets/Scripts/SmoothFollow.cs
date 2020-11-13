@@ -25,46 +25,39 @@ public class SmoothFollow : MonoBehaviour
 	public float _speed = 5f;
 	// Update is called once per frame
 
+	private void Start()
+	{
+		parent = transform.parent;
+	}
 
-	private void FixedUpdate()
+	public float _maxAngleDelta = 10f;
+	private void LateUpdate()
 	{
 		// Early out if we don't have a target
 		FollowTarget(target);
-
+		
+		transform.LookAt(target);
+		
 	}
 	public void FollowTarget(Transform t)
 	{
 		if (t != null)
 		{
-			smoothTime = Mathf.Clamp(smoothTime, 0.15f, 1);
-			Vector3 localPos = transform.position;
-			Vector3 targetLocalPos = t.transform.position;
+			Vector3 localPos = parent.localPosition;
 
-			float wantedHeight = t.position.y + height - localPos.y;
+			Vector3 targetLocalPos = t.transform.localPosition;
 
-			float currentHeight = transform.position.y;
+			parent.localPosition = Vector3.Lerp(localPos, new Vector3(targetLocalPos.x , targetLocalPos.y, targetLocalPos.z - distance) - new Vector3(targetLocalPos.x + Mathf.Abs(t.GetComponent<PlayerController>().dir.x),0, 0)*smoothTime,  smoothTime);
 
-
-			// Damp the height
-			currentHeight = Mathf.Lerp(currentHeight, wantedHeight, heightDamping * Time.fixedDeltaTime);
-
-
-			transform.position = Vector3.SmoothDamp(localPos, new Vector3(targetLocalPos.x + Mathf.Abs(target.GetComponent<PlayerController>()._angles.y) * 0.1f, currentHeight, targetLocalPos.z - distance + Mathf.Abs(target.GetComponent<PlayerController>()._angles.y * 0.1f)), ref velocity, smoothTime);
-
-
-			Vector3 dir = -transform.position + direction;
-			Quaternion toRotation = Quaternion.FromToRotation(transform.forward, dir);
-			transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, _speed * Time.fixedDeltaTime);
+			parent.rotation = Quaternion.Lerp(parent.rotation, Quaternion.Euler(target.eulerAngles - new Vector3(0, target.eulerAngles.x , 0)), _speed * Time.fixedDeltaTime);
+			
 		}
 
 	}
-	Vector3 direction;
-	void DetectAngle(Vector3 point)
-	{
 
-		direction = Vector3.one * Vector3.Distance(transform.position, point);
 
-	}
+
+	Transform parent;
 
 	public void Shake(float duration, float magnitude)
 	{
@@ -86,16 +79,5 @@ public class SmoothFollow : MonoBehaviour
 		transform.localPosition = origPos;
 	}
 
-	Vector3 colPoint;
-
-	private void OnTriggerEnter(Collider other)
-	{
-		colPoint = other.gameObject.GetComponent<Collider>().ClosestPointOnBounds(transform.position);
-		DetectAngle(colPoint);
-
-	}
-	private void OnTriggerExit(Collider other)
-	{
-		colPoint = Vector3.zero;
-	}
+	
 }

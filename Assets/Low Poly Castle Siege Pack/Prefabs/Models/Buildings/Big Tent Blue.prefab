@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 456764}
   - component: {fileID: 3362670}
   - component: {fileID: 2317556}
+  - component: {fileID: 6180018153088000833}
+  - component: {fileID: 5664922552423658760}
+  - component: {fileID: 7703733789509338023}
+  - component: {fileID: 2275787784833612257}
   m_Layer: 0
   m_Name: Big Tent Blue
   m_TagString: Untagged
@@ -55,7 +59,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,4 +83,54 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6180018153088000833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 1, z: 0.1}
+  m_Center: {x: 0.59, y: -0.07, z: -1.97}
+--- !u!65 &5664922552423658760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 1, z: 0.1}
+  m_Center: {x: -0.61, y: -0.07, z: -1.97}
+--- !u!65 &7703733789509338023
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 0.1, z: 1.2}
+  m_Center: {x: -0.01, y: 0.37, z: -1.41}
+--- !u!114 &2275787784833612257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645716a8520544542ac0798479ea5e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

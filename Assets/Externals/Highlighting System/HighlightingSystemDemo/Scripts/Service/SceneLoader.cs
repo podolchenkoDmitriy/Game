@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 #if UNITY_EDITOR
 using UnityEditor;
 using System.Collections.Generic;
@@ -8,13 +9,13 @@ using System.IO;
 
 public class SceneLoader : MonoBehaviour
 {
-	public static readonly string[] sceneNames = new string[] {"Welcome", "Colors", "Transparency", "Occlusion", "OccluderModes", "Scripting", "Compound", "Mobile"};
+	public static readonly string[] sceneNames = new string[] { "Welcome", "Colors", "Transparency", "Occlusion", "OccluderModes", "Scripting", "Compound", "Mobile" };
 
 	private int ox = 20;
 	private int oy = 100;
 	private int h = 30;
 
-	#if UNITY_EDITOR
+#if UNITY_EDITOR
 	private const string scenesPath = "Assets/HighlightingSystemDemo/Scenes/";
 	private const string extension = ".unity";
 
@@ -22,7 +23,7 @@ public class SceneLoader : MonoBehaviour
 	private List<string> missingScenePaths;
 
 	// 
-	void Start()
+	private void Start()
 	{
 		// Create list of missing demo scenes
 		CheckMissingScenes();
@@ -35,7 +36,7 @@ public class SceneLoader : MonoBehaviour
 			int l = missingSceneNames.Count;
 			for (int i = 0; i < l; i++)
 			{
-				message += string.Format(i != l-1 ? "'{0}', " : "'{0}'.", missingSceneNames[i]);
+				message += string.Format(i != l - 1 ? "'{0}', " : "'{0}'.", missingSceneNames[i]);
 			}
 			bool answer = EditorUtility.DisplayDialog("Highlighting System", message, "Yes", "No");
 			if (answer)
@@ -49,7 +50,7 @@ public class SceneLoader : MonoBehaviour
 	}
 
 	// 
-	void CheckMissingScenes()
+	private void CheckMissingScenes()
 	{
 		int l = sceneNames.Length;
 		missingSceneNames = new List<string>(l);
@@ -62,7 +63,7 @@ public class SceneLoader : MonoBehaviour
 			missingSceneNames.Add(sceneName);
 			missingScenePaths.Add(scenesPath + sceneName + extension);
 		}
-		
+
 		// Remove existing scenes from the list
 		EditorBuildSettingsScene[] existingScenes = EditorBuildSettings.scenes;
 		for (int i = missingScenePaths.Count - 1; i >= 0; i--)
@@ -82,7 +83,7 @@ public class SceneLoader : MonoBehaviour
 	}
 
 	// 
-	void AddMissingScenes()
+	private void AddMissingScenes()
 	{
 		EditorBuildSettingsScene[] existingScenes = EditorBuildSettings.scenes;
 		int l = existingScenes.Length;
@@ -102,17 +103,17 @@ public class SceneLoader : MonoBehaviour
 	}
 
 	// 
-	IEnumerator StopNextFrame()
+	private IEnumerator StopNextFrame()
 	{
 		yield return new WaitForEndOfFrame();
 		yield return new WaitForEndOfFrame();
-		
+
 		EditorApplication.isPlaying = false;
 	}
-	#endif
+#endif
 
 	// 
-	void OnGUI()
+	private void OnGUI()
 	{
 		GUI.Label(new Rect(ox, oy + 10, 500, 100), "Load demo scene:");
 
@@ -122,7 +123,7 @@ public class SceneLoader : MonoBehaviour
 
 			if (GUI.Button(new Rect(ox, oy + 30 + i * h, 120, 20), scene))
 			{
-				Application.LoadLevel(scene);
+				SceneManager.LoadScene(scene);
 			}
 		}
 	}
